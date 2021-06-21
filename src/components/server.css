@@ -17,20 +17,6 @@
   color: #bbbbbd;
 }
 
-ul.list-style-nav,
-ul.list-style-none,
-ul.list-style-icon {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-dl,
-ol,
-ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
 ul.list-style-icon li {
   position: relative;
   padding-left: 26px;
@@ -81,83 +67,7 @@ ul.list-style-icon li {
   line-height: 25px;
 }
 
-ul.list-style-icon li .fa,
-ul.list-style-icon li .fas,
-ul.list-style-icon li .far,
-ul.list-style-icon li .fal,
-ul.list-style-icon li .fab,
-ul.list-style-icon li .material-icons {
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 28px;
-  line-height: 28px;
-  text-align: center;
-  font-weight: 600 !important;
-}
-
-.fa,
-.fas {
-  font-family: "font awesome 5 free";
-  font-weight: 900;
-}
-.fa,
-.fas,
-.far,
-.fal,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-.wpc-vps-info .list-style-icon li i {
-  line-height: 25px;
-}
-
-ul.list-style-icon li .fa,
-ul.list-style-icon li .fas,
-ul.list-style-icon li .far,
-ul.list-style-icon li .fal,
-ul.list-style-icon li .fab,
-ul.list-style-icon li .material-icons {
-  position: absolute;
-  left: 0;
-  width: 20px;
-  height: 28px;
-  line-height: 28px;
-  text-align: center;
-  font-weight: 600 !important;
-}
 .text-green {
   color: #51ae59 !important;
 }
 
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-.noUi-horizontal .noUi-tooltip {
-  transform: translate(-50%, 0);
-  left: 50%;
-  bottom: 120%;
-}
-.wpc-cloud-range .noUi-tooltip {
-  position: absolute;
-  margin-bottom: 12px;
-  padding: 8px 0;
-  color: #fff;
-  font-style: normal;
-  font-size: 14px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 15px;
-  border: none;
-  line-height: 16px;
-}
-.wpc-cloud-range .noUi-tooltip {
-  background-color: #51ae59;
-}
