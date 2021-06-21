@@ -94,12 +94,6 @@ const Order = ({ planType }) => {
                 setTime("quarter")
             }
         }
-        if (planType === "Budget") {
-            setPrice("5.00")
-            setCircle(-630)
-            setBarLength(-63)
-            setSelectedPlan("5GB")
-        }
     }, [planType, selectedPlan])
     useEffect(() => {
         if (planType === "Premium") {
