@@ -94,12 +94,6 @@ const Order = ({ planType }) => {
                 setTime("quarter")
             }
         }
-        if (planType === "Budget") {
-            setPrice("5.00")
-            setCircle(-630)
-            setBarLength(-63)
-            setSelectedPlan("5GB")
-        }
     }, [planType, selectedPlan])
     useEffect(() => {
         if (planType === "Premium") {
@@ -155,6 +149,7 @@ const Order = ({ planType }) => {
             setPrice("6.00")
         }
     }
+
     return (
         <section id="order" className="sec-normal sec-bg3" style={{ paddingTop: "55px" }}>
             <div className="container">
@@ -172,8 +167,10 @@ const Order = ({ planType }) => {
                                                     id="inputUI1" />
                                                 <div className="slider-line noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr" id="sliderUI1">
                                                     <div className="noUi-base">
-                                                        <div className="noUi-connects">
-                                                            <div className="noUi-connect" style={{ transform: `translate(${barLength}%, 0px) scale(1, 1)` }}>
+                                                        <div
+                                                            className="noUi-connects">
+                                                            <div
+                                                                className="noUi-connect" style={{ transform: `translate(${barLength}%, 0px) scale(1, 1)` }}>
                                                             </div>
                                                         </div>
                                                         <div className="noUi-origin" style={{

@@ -51,6 +51,10 @@ const Server = () => {
                                             <div className="noUi-pips noUi-pips-horizontal">
                                                 <div
                                                     className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '0%' }} />
+                                                <span
+                                                    onClick={() => handleThread(-100, -1000, 2, 28.00)}
+                                                    style={{ left: "-5%", position: 'absolute', top: "-70px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleThread(-100, -1000, 2, 28.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={0} style={{ left: '0%' }}>
@@ -63,11 +67,16 @@ const Server = () => {
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '23.8095%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '28.5714%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '33.3333%' }} />
+
                                                 <div
                                                     onClick={() => handleThread(-65, -660, 3, 37.50)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={1} style={{ left: '33.3333%' }}>
                                                     3
                                                 </div>
+                                                <span
+                                                    onClick={() => handleThread(-65, -660, 3, 37.50)}
+                                                    style={{ left: "25%", position: 'absolute', top: "-70px", opacity: "0", fontSize: "5rem", padding: "0px" }}>
+                                                    =</span>
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '38.0952%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '42.8571%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '47.6191%' }} />
@@ -80,6 +89,10 @@ const Server = () => {
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={2} style={{ left: '66.6667%' }}>
                                                     4
                                                 </div>
+                                                <span
+                                                    onClick={() => handleThread(-33, -330, 4, 48.00)}
+                                                    style={{ left: "58%", position: 'absolute', top: "-70px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '71.4286%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '76.1905%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '80.9524%' }} />
@@ -92,6 +105,10 @@ const Server = () => {
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={3} style={{ left: '100%' }}>
                                                     5
                                                 </div>
+                                                <span
+                                                    onClick={() => handleThread(0, 0, 5, 63.00)}
+                                                    style={{ left: "95%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                             </div>
                                         </div>
                                     </div>
@@ -113,6 +130,10 @@ const Server = () => {
                                             </div>
                                             <div className="noUi-pips noUi-pips-horizontal">
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '0%' }} />
+                                                <span
+                                                    onClick={() => handleRam(-100, -1000, "6GB", 40.00)}
+                                                    style={{ left: "-5%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleRam(-100, -1000, "6GB", 40.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={0} style={{ left: '0%' }}>
@@ -122,6 +143,10 @@ const Server = () => {
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '10%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '15%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '20%' }} />
+                                                <span
+                                                    onClick={() => handleRam(-80, -800, "8GB", 38.00)}
+                                                    style={{ left: "15%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleRam(-80, -800, "8GB", 38.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={1} style={{ left: '20%' }}>
@@ -131,6 +156,10 @@ const Server = () => {
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '30%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '35%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '40%' }} />
+                                                <span
+                                                    onClick={() => handleRam(-60, -600, "10GB", 45.00)}
+                                                    style={{ left: "35%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleRam(-60, -600, "10GB", 45.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={2} style={{ left: '40%' }}>
@@ -140,6 +169,10 @@ const Server = () => {
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '50%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '55%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '60%' }} />
+                                                <span
+                                                    onClick={() => handleRam(-40, -400, "12GB", 52.00)}
+                                                    style={{ left: "55%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleRam(-40, -400, "12GB", 52.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={3} style={{ left: '60%' }}>
@@ -149,6 +182,10 @@ const Server = () => {
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '70%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '75%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '80%' }} />
+                                                <span
+                                                    onClick={() => handleRam(-20, -200, "16GB", 65.00)}
+                                                    style={{ left: "75%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleRam(-20, -200, "16GB", 65.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={4} style={{ left: '80%' }}>
@@ -158,6 +195,10 @@ const Server = () => {
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '90%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-normal" style={{ left: '95%' }} />
                                                 <div className="noUi-marker noUi-marker-horizontal noUi-marker-large" style={{ left: '100%' }} />
+                                                <span
+                                                    onClick={() => handleRam(0, 0, "25GB", 89.00)}
+                                                    style={{ left: "95%", position: 'absolute', top: "-75px", opacity: "0", fontSize: "5rem" }}>
+                                                    =</span>
                                                 <div
                                                     onClick={() => handleRam(0, 0, "25GB", 89.00)}
                                                     className="noUi-value noUi-value-horizontal noUi-value-large" data-value={5} style={{ left: '100%' }}>
@@ -177,15 +218,21 @@ const Server = () => {
                                                 <br />
                                                 <ul className="list-style-icon text-light">
                                                     <li>
-                                                        <i className="fas fa-check-square text-green" />
+                                                        <i
+                                                            style={{ color: "#51ae59" }}
+                                                            className="fas fa-check-square text-green" />
                                                         Dedicated CPU threads
                                                     </li>
                                                     <li>
-                                                        <i className="fas fa-check-square text-green" />
+                                                        <i
+                                                            style={{ color: "#51ae59" }}
+                                                            className="fas fa-check-square text-green" />
                                                         Priority Discord support
                                                     </li>
                                                     <li>
-                                                        <i className="fas fa-check-square text-green" />
+                                                        <i
+                                                            style={{ color: "#51ae59" }}
+                                                            className="fas fa-check-square text-green" />
                                                         Control over your environment
                                                     </li>
                                                 </ul>
