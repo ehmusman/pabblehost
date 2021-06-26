@@ -7,7 +7,7 @@ const Pricing = ({ selection }) => {
 
     const data = [
         {
-            price: 5.00, id: 1, title: "Budget", former: "Great for users on a tight budget - starting at $1/GB, the Budget hosting plans are great for running a private/community server", button: select === "Budget" ? "Currently Viewing" : "View Plans", disabled: select === "Budget" ? true : false, services: [
+            prevPrice: 8.00, price: 5.00, id: 1, title: "Budget", former: "Great for users on a tight budget - starting at $1/GB, the Budget hosting plans are great for running a private/community server", button: select === "Budget" ? "Currently Viewing" : "View Plans", disabled: select === "Budget" ? true : false, services: [
                 { class: "fas fa-microchip", item: "Intel Xeon E5-1630v3 @ 3.7Ghz" },
                 { class: "fas fa-memory", item: "DDR4 2133MHz ECC Memory" },
                 { class: "fas fa-hdd", item: "Unmetered Enterprise Grade SSDs" },
@@ -17,7 +17,7 @@ const Pricing = ({ selection }) => {
             ]
         },
         {
-            price: 11.25, id: 2, title: "Premium", former: "Perfect for large servers, modpacks, and public servers, who need the power of the i9-9900K CPU for best-in-class performance.", button: select === "Premium" ? "Currently Viewing" : "View Plans", disabled: select === "Premium" ? true : false,
+            prevPrice: 15.00, price: 11.25, id: 2, title: "Premium", former: "Perfect for large servers, modpacks, and public servers, who need the power of the i9-9900K CPU for best-in-class performance.", button: select === "Premium" ? "Currently Viewing" : "View Plans", disabled: select === "Premium" ? true : false,
             services: [
                 { class: "fas fa-microchip", item: "Intel i9-9900K / Xeon E-2288G @ 5Ghz" },
                 { class: "fas fa-memory", item: "DDR4 2666MHz Memory" },
@@ -30,7 +30,7 @@ const Pricing = ({ selection }) => {
             ]
         },
         {
-            price: 28.00, id: 3, title: "Extreme", former: "Unrivalled performance dedicated just to your server, for a no-compromises hosting experience.", button: select === "Extreme" ? "Currently Viewing" : "View Plans", disabled: select === "Extreme" ? true : false, services: [
+            prevPrice: 35.00, price: 28.00, id: 3, title: "Extreme", former: "Unrivalled performance dedicated just to your server, for a no-compromises hosting experience.", button: select === "Extreme" ? "Currently Viewing" : "View Plans", disabled: select === "Extreme" ? true : false, services: [
                 { class: "fas fa-microchip", item: "Intel i9-9900K / Xeon E-2288G @ 5Ghz" },
                 { class: "fas fa-memory", item: "DDR4 2666MHz Memory" },
                 { class: "fas fa-hdd", item: "Unmetered Enterprise Grade NVMe SSDs" },
@@ -69,6 +69,7 @@ const Pricing = ({ selection }) => {
                             services={item.services}
                             onClick={handleSelection}
                             price={item.price}
+                            prevPrice={item.prevPrice}
                         />
                     ))}
                 </div>

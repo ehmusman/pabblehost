@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const Plan = ({ title, former, button, disabled, services, onClick, price }) => {
+const Plan = ({ title, former, button, disabled, services, onClick, price, prevPrice }) => {
     const [show, setShow] = useState(true)
     useEffect(() => {
         if (window.innerWidth <= 575) {
@@ -27,7 +27,13 @@ const Plan = ({ title, former, button, disabled, services, onClick, price }) => 
                             </div>
                             <div className="col-12 mt-1">
                                 <span className="h4 text-light mt-2 d-block">
-                                    Price: &euro; {price} EUR</span>
+                                    <span className="d-block text-danger">
+                                        <del>&euro; {prevPrice} EUR</del>
+                                    </span>
+                                    <span className="d-block" style={{ textDecoration: "none" }}>
+                                        <>&euro; {price} EUR</>
+                                    </span>
+                                </span>
                             </div>
                         </div>
                     </div>
