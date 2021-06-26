@@ -239,13 +239,19 @@ const Server = () => {
                                             </div>
                                         </div>
                                         <div className="card-addon" style={{ marginTop: "-10px" }}>
-                                            <span>
-                                                <div className="price">
-                                                    <span className="symbol coin">$</span>
-                                                    <span id="price-val">{totalBill}</span>
-                                                    <span id="cycle-val">/month</span>
+                                            <div className="price  d-flex flex-column">
+                                                <div className="col-4 h3 row">
+                                                    <del className="mr-4 text-danger"> ${Number(totalBill) + 8}
+                                                        <span id="cycle-val">/month</span>
+                                                    </del>
                                                 </div>
-                                            </span>
+                                                <div className="col-4 h3 row">
+                                                    <span id="price-val">
+                                                        ${totalBill}
+                                                        <span id="cycle-val">/month</span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                             <a id="orderlink" href="https://billing.pebblehost.com/cart.php?a=add&pid=269&configoption%5B98%5D=567&configoption%5B99%5D=580" className="btn btn-green">Configure Plan</a>
                                         </div>
                                     </div>

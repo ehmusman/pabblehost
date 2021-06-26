@@ -209,12 +209,16 @@ const Order = ({ planType }) => {
                                         </div>
                                     </div>
                                     <div className="card-addon">
-                                        <span>
-                                            <div className="price"><span className="symbol coin">$</span>
+                                        <div>
+                                            <div className="price">
+                                                <del className="mr-4 text-danger"> $ {Number(price) + 8}
+                                                    <span id="cycle-val">/{time}</span>
+                                                </del>
+                                                <span className="symbol coin">$</span>
                                                 <span id="price-val">{price}</span>
                                                 <span id="cycle-val">/{time}</span>
                                             </div>
-                                        </span>
+                                        </div>
                                         <a id="orderlink" href="https://billing.pebblehost.com/order.php?pid=211" className="btn btn-green btn-lg">Add to Cart</a>
                                     </div>
                                 </div>
