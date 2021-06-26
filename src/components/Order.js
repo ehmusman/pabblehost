@@ -7,7 +7,6 @@ const Order = ({ planType }) => {
     const [selectedPlan, setSelectedPlan] = useState("5GB")
     const [price, setPrice] = useState("11.25")
     const [time, setTime] = useState("month")
-
     const [version, setVersion] = useState("1.17")
     const [server, setServer] = useState("spigot")
 
@@ -95,6 +94,11 @@ const Order = ({ planType }) => {
             }
         }
     }, [planType, selectedPlan])
+    useEffect(() => {
+        if (planType === "Budget") {
+            setPrice("5.00")
+        }
+    }, [planType])
     useEffect(() => {
         if (planType === "Premium") {
             setPrice("11.25")

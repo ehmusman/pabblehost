@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
-const Plan = ({ title, former, button, disabled, services, onClick }) => {
+const Plan = ({ title, former, button, disabled, services, onClick, price }) => {
     const [show, setShow] = useState(true)
-
     useEffect(() => {
         if (window.innerWidth <= 575) {
             setShow(false)
@@ -19,9 +18,18 @@ const Plan = ({ title, former, button, disabled, services, onClick }) => {
                     <div className="top-content">
                         <div className="title">{title}</div>
                         <div className="fromer">{former}</div>
-                        <button
-                            onClick={() => onClick(title)}
-                            className={`btn mt-4 ${disabled ? "btn-gray" : "btn-green"}`}>{button}</button>
+                        <div className="row">
+                            <div className="col-12">
+                                <button
+                                    onClick={() => onClick(title)}
+                                    className={`btn mt-4 ${disabled ? "btn-gray" : "btn-green"}`}>{button}</button>
+
+                            </div>
+                            <div className="col-12 mt-1">
+                                <span className="h4 text-light mt-2 d-block">
+                                    Price: &euro; {price} EUR</span>
+                            </div>
+                        </div>
                     </div>
                     <div
                         className="d-block d-sm-none list-info mobile-specopts"

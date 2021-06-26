@@ -292,10 +292,6 @@ element.style {
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 .noUi-horizontal .noUi-tooltip {
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
@@ -330,10 +326,6 @@ element.style {
   text-align: center;
   white-space: nowrap;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 .noUi-pips-horizontal {
   padding: 10px 0;
   height: 80px;
@@ -346,15 +338,6 @@ element.style {
   position: absolute;
   color: #999;
 }
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
 .noUi-pips-horizontal {
   padding: 15px 0;
   left: 3px;
@@ -382,15 +365,6 @@ element.style {
   position: absolute;
   background: #ccc;
 }
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
 
 .noUi-value-horizontal {
   -webkit-transform: translate(-50%, 50%);
@@ -403,529 +377,6 @@ element.style {
   margin-left: -1px;
   width: 2px;
   height: 5px;
-}
-
-<<<<<<< HEAD
-element.style {
-  left: 54.5455%;
-}
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-=======
-* {
-  scrollbar-color: #51ae59 var(--bg-dark) !important;
-  scrollbar-width: thin !important;
->>>>>>> origin/master
-}
-
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-<<<<<<< HEAD
-.noUi-pips {
-  position: absolute;
-  color: #999;
-}
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
-
-element.style {
-  left: 68.1818%;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
-element.style {
-  left: 77.2727%;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-<<<<<<< HEAD
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-=======
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
->>>>>>> origin/master
-}
-
-element.style {
-  left: 81.8182%;
-}
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-
-element.style {
-  left: 81.8182%;
-}
-<<<<<<< HEAD
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-
-element.style {
-  left: 86.3636%;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-=======
->>>>>>> origin/master
-
-element.style {
-  left: 90.9091%;
-}
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-<<<<<<< HEAD
-
-element.style {
-  left: 90.9091%;
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-element.style {
-  left: 18.1818%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-element.style {
-  left: 18.1818%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-element.style {
-  left: 27.2727%;
-}
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-element.style {
-  left: 27.2727%;
->>>>>>> origin/master
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
-
-element.style {
-  left: 95.4545%;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
->>>>>>> origin/master
-
-element.style {
-  left: 100%;
-}
-.noUi-marker-horizontal.noUi-marker-large {
-  height: 15px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
-element.style {
-  left: 100%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-<<<<<<< HEAD
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
->>>>>>> origin/master
-
-element.style {
-  left: 100%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.wpc-vps-info .content-price {
-  position: relative;
-  background-color: #191516;
-  border-radius: 15px;
-  padding: 30px;
-}
-.card-addon {
-  margin: -30px;
-  margin-top: 150px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  padding: 10px 25px;
-  border-top: 1px solid #201d1e90;
-  background: #292929;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.wpc-cloud-range .noUi-tooltip {
-  background-color: #51ae59;
-}
-
-.wpc-cloud-range .noUi-tooltip {
-  position: absolute;
-<<<<<<< HEAD
-  width: 200px;
-  margin-bottom: 12px;
-  padding: 8px 0;
-  color: #fff;
-  font-style: normal;
-  font-size: 14px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 15px;
-  border: none;
-  line-height: 16px;
-}
-=======
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-element.style {
-  left: 45.4545%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
->>>>>>> origin/master
-
-.noUi-horizontal .noUi-tooltip {
-  transform: translate(-50%, 0);
-  left: 50%;
-<<<<<<< HEAD
-  bottom: 120%;
-=======
-}
-.noUi-marker-horizontal.noUi-marker {
-  margin-left: -1px;
-  width: 2px;
-  height: 5px;
-}
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 element.style {
@@ -947,38 +398,9 @@ element.style {
   width: 4px;
   height: 4px;
 }
-.noUi-marker-large {
-  background: #aaa;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-element.style {
-  left: 54.5455%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-element.style {
-  left: 59.0909%;
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 15px;
 }
 .noUi-marker-horizontal.noUi-marker {
   margin-left: -1px;
@@ -993,52 +415,12 @@ element.style {
   width: 4px;
   height: 4px;
 }
+.noUi-marker-large {
+  background: #aaa;
+}
 .noUi-marker {
   position: absolute;
   background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
->>>>>>> origin/master
-}
-
-.wpc-cloud-range .noUi-tooltip:before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 9px 9px 0;
-  position: absolute;
-<<<<<<< HEAD
-=======
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-user agent stylesheet div {
-  display: block;
 }
 .noUi-pips {
   position: absolute;
@@ -1061,19 +443,6 @@ element.style {
   width: 4px;
   height: 4px;
 }
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-element.style {
-  left: 72.7273%;
-}
 .noUi-marker-horizontal.noUi-marker-large {
   height: 15px;
 }
@@ -1097,32 +466,6 @@ element.style {
   position: absolute;
   background: #ccc;
 }
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-element.style {
-  left: 72.7273%;
-}
-.noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-}
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
 element.style {
   left: 77.2727%;
 }
@@ -1139,16 +482,6 @@ element.style {
   width: 4px;
   height: 4px;
 }
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 element.style {
   left: 81.8182%;
@@ -1172,16 +505,6 @@ element.style {
 .noUi-marker-large {
   background: #aaa;
 }
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 element.style {
   left: 81.8182%;
@@ -1190,17 +513,6 @@ element.style {
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
 }
-.noUi-value {
-  position: absolute;
-  white-space: nowrap;
-  text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 element.style {
   left: 86.3636%;
@@ -1210,24 +522,6 @@ element.style {
   width: 2px;
   height: 5px;
 }
-.noUi-marker-horizontal.noUi-marker {
-  position: absolute;
-  background: gray;
-  border-radius: 50%;
-  margin-left: -1px;
-  width: 4px;
-  height: 4px;
-}
-.noUi-marker {
-  position: absolute;
-  background: #ccc;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 element.style {
   left: 90.9091%;
@@ -1255,11 +549,6 @@ element.style {
   position: absolute;
   background: #ccc;
 }
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 element.style {
   left: 90.9091%;
@@ -1272,11 +561,6 @@ element.style {
   position: absolute;
   white-space: nowrap;
   text-align: center;
-}
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 element.style {
@@ -1299,12 +583,6 @@ element.style {
   position: absolute;
   background: #ccc;
 }
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 element.style {
   left: 100%;
@@ -1332,12 +610,6 @@ element.style {
   position: absolute;
   background: #ccc;
 }
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 element.style {
   left: 100%;
 }
@@ -1350,12 +622,6 @@ element.style {
   white-space: nowrap;
   text-align: center;
 }
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 element.style {
   left: 100%;
@@ -1419,9 +685,6 @@ element.style {
   bottom: 120%;
 }
 
-
-
-
 .wpc-cloud-range .noUi-tooltip:before {
   content: "";
   width: 0;
@@ -1429,17 +692,12 @@ element.style {
   border-style: solid;
   border-width: 9px 9px 0;
   position: absolute;
->>>>>>> origin/master
   bottom: -6px;
   left: 92px;
 }
 .wpc-cloud-range .noUi-tooltip:before {
   border-color: #51ae59 transparent transparent transparent;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 .noUi-tooltip {
   display: block;
   position: absolute;
@@ -1451,11 +709,6 @@ element.style {
   text-align: center;
   white-space: nowrap;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master
 .wpc-vps-info .price,
 #plan-name {
   font-size: 34px !important;
@@ -1635,7 +888,6 @@ option {
   white-space: nowrap;
   min-height: 1.2em;
   padding: 0px 2px 1px;
-<<<<<<< HEAD
 }
 
 element.style {
@@ -1680,8 +932,6 @@ h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-=======
->>>>>>> origin/master
 }
 
 element.style {
@@ -1696,7 +946,6 @@ element.style {
 .my-2 {
   margin-top: 0.5rem !important;
 }
-
 
 .plan-picker {
   background: #191516;
@@ -1861,7 +1110,6 @@ element.style {
   color: #fff;
   background-color: #201d1e;
 }
-<<<<<<< HEAD
 .form-control {
   padding: 10px 15px;
   outline: 0;
@@ -1892,9 +1140,6 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-=======
-
->>>>>>> origin/master
 
 .mb-0,
 .my-0 {
@@ -1911,7 +1156,6 @@ p {
   background-color: #201d1e;
 }
 
-
 select {
   word-wrap: normal;
 }
@@ -1921,7 +1165,6 @@ select {
   color: #fff;
   background-color: #201d1e;
 }
-
 
 element.style {
   transform: translate(0%, 0px) scale(0.363636, 1);
@@ -1941,7 +1184,6 @@ element.style {
   height: 100%;
   width: 100%;
 }
-<<<<<<< HEAD
 .noUi-connect,
 .noUi-origin {
   will-change: transform;
@@ -1976,9 +1218,6 @@ element.style {
   padding: 15px 0;
   left: 3px;
 }
-=======
-
->>>>>>> origin/master
 
 element.style {
   left: 0%;
@@ -2011,10 +1250,6 @@ element.style {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 
 element.style {
   left: 0%;
@@ -2028,15 +1263,6 @@ element.style {
   white-space: nowrap;
   text-align: center;
 }
-<<<<<<< HEAD
-
-=======
-.noUi-pips,
-.noUi-pips * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
->>>>>>> origin/master
 .noUi-marker-horizontal.noUi-marker {
   margin-left: -1px;
   width: 2px;
