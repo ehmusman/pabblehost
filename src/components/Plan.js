@@ -28,7 +28,7 @@ const Plan = ({ title, former, button, disabled, services, onClick, price, prevP
                             <div className="col-12 mt-1">
                                 <span className="h4 text-light mt-2 d-block">
                                     <span className="d-block text-danger">
-                                        <del>&euro; {prevPrice} EUR</del>
+                                        <del>&euro; {price} EUR</del>
                                     </span>
                                     <span className="d-block" style={{ textDecoration: "none" }}>
                                         <>&euro; {price} EUR</>
